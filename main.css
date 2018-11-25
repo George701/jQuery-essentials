@@ -1,0 +1,72 @@
+body{
+    margin: 20px;
+    font-size: 1em;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333333;
+}
+
+.container{
+    padding: 20px;
+}
+
+#test2{
+    border: 1px dotted lightblue;
+    width: 10vh;
+}
+
+#test3{
+    border: 1px dotted lightgreen;
+    width: 10vh;
+}
+
+#test4{
+    border: 1px dotted lightpink;
+    width: 10vh;
+}
+
+#test5{
+    border: 1px dotted lightcoral;
+    width: 10vh;
+}
+
+.div1{
+    height: 80px;
+    display: none;
+    background: #999;
+}
+
+.panel,.flip {
+    /*padding: 5px;*/
+    padding: 40px;
+    text-align: center;
+    background-color: #333333;
+    border: solid 1px #c3c3c3;
+    color: #e6e6e6;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+
+.widget{
+    border: 1px solid #c3c3c3;
+    padding: 20px;
+    /*border-radius: 10px;*/
+    border-radius: 5px 20px 5px;
+}
+
+.anime{
+    background: #50cb52;
+    height:100px;
+    width:100px;
+    position:absolute;
+}
+
+#ch{
+    /*position: absolute;*/
+    background: darkred;
+    color: white;
+    padding: 20px;
+
+}

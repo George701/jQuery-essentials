@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery tutorial</title>
+    <link rel="stylesheet" href="main.css">
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+</head>
+<body>
+    <h1>jQuery tutorial</h1>
+    <div class="container">
+        <div>
+
+            <h2>jQueru Syntax</h2>
+            <span>Basic syntax is: <strong>$(selector).action()</strong></span>
+            <ul>
+                <li>A $ sign to define/access jQuery</li>
+                <li>A (selector) to "query (or find)" HTML elements</li>
+                <li>A jQuery action() to be performed on the element(s)</li>
+            </ul>
+
+        </div>
+
+        <div>
+
+            <h2>Selectors</h2>
+            <span>Selectors can be of thee types: (<em>Click to hide</em>)</span>
+            <ol>
+                <li>Tags, <strong>$("li")</strong></li>
+                <li class="test1">Class, <strong>$(".test1")</strong></li>
+                <li id="test1">Ids, <strong>$("#test1")</strong></li>
+            </ol>
+
+        </div>
+
+        <div>
+
+            <h2>Events</h2>
+            <ul>
+                <li>Mouse Events
+                    <ul>
+                        <li id="test2">click</li>
+                        <li id="test3">dblclick</li>
+                        <li id="test4">mouseenter</li>
+                        <li id="test5">mouseleave</li>
+                    </ul>
+                </li>
+                <li>Keyboard Events</li>
+                <li>Form Events</li>
+                <li>Document/Window Events</li>
+            </ul>
+
+        </div>
+
+
+        <div>
+            <h2>jQuery Effects</h2>
+            <div>
+                <h3>Hide/Show</h3>
+                <span id="hs">Appearing/Disappearing text</span>
+                <br>
+                <button id="hide">Hide</button>
+                <button id="show">Show</button>
+            </div>
+        </div>
+
+        <div>
+
+            <h3>Fade</h3>
+            <button id="fade">Click to fade</button>
+            <div id="div1" class="div1"></div>
+
+        </div>
+
+        <div>
+
+            <h3>Slide</h3>
+
+            <div id="flip" class="flip">
+                <span class="widget">
+                    <i class="fas fa-angle-double-down"></i>
+                </span>
+            </div>
+            <div id="panel" class="panel">
+                <span class="widget" id="fup">
+                    <i class="fas fa-angle-double-up"></i>
+                </span>
+            </div>
+
+            <div style="height:400px;">
+
+                <h3>Animation</h3>
+
+                <button id="animate">Start Animation</button>
+
+                <div id="anime" class="anime"></div>
+
+            </div>
+
+            <div>
+
+                <h3>Callback</h3>
+
+                <button id="cb">Click</button>
+                <span id="cb-text">This will be hidden</span>
+
+            </div>
+
+            <div>
+
+                <h3>Chaining</h3>
+
+                <div id="ch">Hello</div>
+
+            </div>
+
+        </div>
+
+        <div style="margin-top:100px;">
+
+            <h2>jQuery HTML</h2>
+
+            <ul id="namelist">
+                <li>Paul</li>
+                <li>Robert</li>
+                <li>Otto</li>
+            </ul>
+
+            <input type="text" id="content">
+            <button id="get-content">Add</button>
+
+        </div>
+
+        <div>
+
+            <h2>jQuery Ajax</h2>
+
+            <div id="div2"><h4>Changeable text</h4></div>
+            <button id="txt-load">Load Text</button>
+
+            <div>
+
+                <h3>GET/POST</h3>
+                <div id="get-test"></div>
+                <button id="get">Send HTTP GET</button>
+
+                <br>
+                <br>
+
+                <button id="post">Send HTTP POST</button>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
